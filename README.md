@@ -37,29 +37,32 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash<
 
 ```
 - Command install होने के बार output में हमें 3 command मिलेंगी अब हमें इस 3 command को run करना है test server पर 
-
+```
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
+```
 
 
 **-  in lieu of restarting the shell**
+```
 \. "$HOME/.nvm/nvm.sh"
+```
 
 **- Download and install Node.js:**
+```
 nvm install 22
+```
 
 **- Verify the Node.js version:**
+```
 node -v # Should print "v22.19.0".
 nvm current # Should print "v22.19.0".
+```
 
 **- Verify npm version:**
+```
 npm -v # Should print "10.9.3".
-
-
-<img width="1070" height="386" alt="image" src="https://github.com/user-attachments/assets/2ac73f13-72fd-4e00-8df6-dc6a7a7cc6de" />
-
 ```
 
 
