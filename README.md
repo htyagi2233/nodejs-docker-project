@@ -104,4 +104,4 @@ npm -v # Should print "10.9.3".
 ### Copy the Jenkins Server ip and browse with 3000 port 
 - Server is running on http://0.0.0.0:3000
 
-<img width="1202" height="1232" alt="image" src="https://github.com/user-attachments/assets/ecb2827e-baf3-4c55-bcd2-a726b4118b0d" />
+
