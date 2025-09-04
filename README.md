@@ -32,18 +32,8 @@ nodejs-docker-project
 - Go to NodeJs Officially Site ->  <https://nodejs.org/en/download>-
 - And install Node.js on test Server
 	
-
-	
-	
-	
-	
-	
-
-	
-
 ### Copy first command and run on test Server-
 ```
 	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 ```
 	
-<img width="920" height="894" alt="image" src="https://github.com/user-attachments/assets/edb58d47-ecfa-4fb6-a746-ec7decf0b261" />
