@@ -37,3 +37,71 @@ nodejs-docker-project
 	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 ```
 	
+### Command install होने के बार output में हमें 3 command मिलेंगी अब हमें इस 3 command को run करना है test server पर 
+
+```
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+
+# in lieu of restarting the shell
+\. "$HOME/.nvm/nvm.sh"
+
+# Download and install Node.js:
+nvm install 22
+
+# Verify the Node.js version:
+node -v # Should print "v22.19.0".
+nvm current # Should print "v22.19.0".
+
+# Verify npm version:
+npm -v # Should print "10.9.3".
+
+```
+
+
+###  This file is available in GitHub Repository 
+< https://github.com/htyagi2233/nodejs-docker-project.git >
+
+```
+# cat package.json
+
+{
+  "name": "my-nodejs-spa",
+  "version": "1.0.0",
+  "description": "A Node.js SPA project with Jest tests",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+```
+
+
+### So based on this file we will installed dependency 
+```
+# npm install express
+# npm install --save-dev jest
+# npm start
+```
+
+### Copy the Jenkins Server ip and browse with 3000 port 
+- Server is running on http://0.0.0.0:3000
+
+<img width="1202" height="1232" alt="image" src="https://github.com/user-attachments/assets/ecb2827e-baf3-4c55-bcd2-a726b4118b0d" />
