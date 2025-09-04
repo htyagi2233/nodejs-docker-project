@@ -27,7 +27,6 @@ nodejs-docker-project
     └── package-lock.json
 
 ```
-<img width="1202" height="690" alt="image" src="https://github.com/user-attachments/assets/922eb152-76d0-4eea-ab67-12bbd8f9d922" />
 ### ................................................... Installaion process on test server ................................................................................................................
 
 - Go to NodeJs Officially Site ->  <https://nodejs.org/en/download>-
